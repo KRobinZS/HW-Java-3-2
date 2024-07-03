@@ -5,7 +5,7 @@ public class Main {
         BmiService service = new BmiService();
         double m = 1.87;
         double kg = 98;
-        double index = service.calculate(m, kg);
-        System.out.println("Имт=" + (int) index);
+        int index = service.calculate(m, kg);
+        System.out.println("Имт=" + index);
     }
 }
